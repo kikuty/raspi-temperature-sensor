@@ -31,7 +31,7 @@ DS18B20 (Temperature sensor)
 ## PIN assingment  
 * Signal -> Pin7 (as specified in the "PIN" variable in the code)  
 * +V -> 3.3V (e.g. Pin1)  
-* GND -> GND  (e.g. Pin9)
+* GND -> GND  (e.g. Pin39)
 
 Also see [Raspberry Pi GPIO Usage](https://www.raspberrypi.org/documentation/usage/gpio/),
 or check the Pin status using the `gpio readall` command.
@@ -40,6 +40,9 @@ or check the Pin status using the `gpio readall` command.
 * Raspberry Pi 4 model B  
 * Raspberry Pi OS (32-bit) with desktop and recommended software(verrion August 2020)  
 * Python 3.7.3  
+
+## Circuit diagram example
+![Circuit diagram](https://github.com/kikuty/raspi-temperature-sensor/blob/main/DS18B20.jpg)
 
 ## Usage  
 Clone and run this code, you'll need [paho-mqtt](https://pypi.org/project/paho-mqtt/) installed on your Raspberry Pi.
